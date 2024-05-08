@@ -9,9 +9,7 @@ import plotly.graph_objects as go
 #Title---
 st.markdown("""
     <h1 style='text-align: center;'>
-        <span style='color: #ff6347; font-size: 1.65em;'>Baleyg</span> - 
-        <span style='color: white;'>Market Analyzer</span>
-    </h1>""", unsafe_allow_html=True)
+        <span style='color: #ff6347; font-size: 1.65em;'>Baleyg</span> - Market Analyzer </h1>""", unsafe_allow_html=True)
 st.write("Welcome to Baleyg! Your one-stop destination for market data, Analyze and Visualize Stock Information like never before. Browse thorugh our wide range of technical indicators, read through the Fundamental Statements and Keep Up to Date with our personalised stock news!")
 #Sidebar
 ticker = st.sidebar.text_input('Ticker')
