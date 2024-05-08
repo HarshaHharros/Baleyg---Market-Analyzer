@@ -4,3 +4,4 @@ plotly==5.22.0
 pandas==2.2.2
 pandas_ta==0.3.14b0
 stocknews==0.9.11
+alpha-vantage==2.3.1
