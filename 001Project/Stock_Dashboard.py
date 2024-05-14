@@ -69,7 +69,8 @@ if ticker:
     #Fundamental Data - API alpha vantage
     from alpha_vantage.fundamentaldata import FundamentalData   
     with fundamental_data:
-        key = '350OBOZ7YUVFGMAY'
+        #Generate your own Free API Key from https://www.alphavantage.co/support/ using your email_ID
+        key = '350OBOZ7*****MAY'
         fd = FundamentalData(key,output_format = 'pandas')
         st.markdown("<h3 style='color: #ff6347;'>Balance Sheet</h3>", unsafe_allow_html=True)
         balance_sheet = fd.get_income_statement_annual(ticker)[0]
