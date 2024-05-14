@@ -51,7 +51,8 @@ with pricing_data:
 #Fundamental Data   
 from alpha_vantage.fundamentaldata import FundamentalData   
 with fundamental_data:
-    key = '350OBOZ7YUVFGMAY'
+    # Generate your own key from https://www.alphavantage.co/support/
+    key = '350OBOZ7*****MAY'
     fd = FundamentalData(key,output_format = 'pandas')
     st.subheader('Balance Sheet')
     balance_sheet = fd.get_income_statement_annual(ticker)[0]
